@@ -6,7 +6,10 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import Counter from "./component/counter.jsx"
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(<Counter />, document.querySelector("#app"));
+
+let number = 0
+
