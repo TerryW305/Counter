@@ -13,3 +13,7 @@ ReactDOM.render(<Counter />, document.querySelector("#app"));
 
 let number = 0
 
+setInterval(() => {
+    number++
+    ReactDOM.render(<Counter number={number} />, document.querySelector("#app"));
+}, 1000)
